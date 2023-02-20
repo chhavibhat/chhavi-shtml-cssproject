@@ -1,0 +1,187 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1050px;
+    /* border: 1px solid gainsboro; */
+    margin: 0 auto;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#brand{
+    float: left;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 10px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orangered;
+    border: 1px solid #C0303E;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: aliceblue;
+    background: blueviolet;
+}
+
+.clear{
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#34eb9e, #043621);
+    background: -webkit-linear-gradient(#34eb9e, #043621);
+    background: -moz-linear-gradient(#34eb9e, #043621);
+    background: -o-linear-gradient(#34eb9e, #043621);
+    padding: 8px 0;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid azure ;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: azure;
+    line-height: 30px;
+    transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#introduction{
+    background: linear-gradient(#b3f2d4, #1ea603);
+    background: -webkit-linear-gradient(#b3f2d4, #1ea603);
+    background: -o-linear-gradient(#b3f2d4, #1ea603);
+    background: -moz-linear-gradient(#b3f2d4, #1ea603);
+    padding: 30px;
+    margin: 17px 0;
+}
+
+#introduction h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 450px;
+    width: 450px;
+    border: 1px solid #B7E953;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#left-sidebar{
+    float: left;
+}
+
+#right-sidebar{
+    float: right;
+}
+
+.sidebar h3{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: violet;
+    font-size: 25px;
+    font-weight: bold;
+    transition: font-size 1s ease;
+    -webkit-transition: font-size 1s ease;
+    -o-transition: font-size 1s ease;
+    -moz-transition: font-size 1s ease;
+    -ms-transition: font-size 1s ease;   
+}
+
+#left-sidebar  ul li{
+    padding-bottom: 8px;
+    list-style: circle;
+}
+
+#right-sidebar ul li{
+    padding-bottom: 10px;
+    list-style: circle;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(blueviolet, #b023a0);
+    background: -o-linear-gradient(blueviolet, #b023a0);
+    background: -moz-linear-gradient(blueviolet, #b023a0);
+    background: -webkit-linear-gradient(blueviolet, #b023a0);
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.footer p{
+    text-align: center;
+}
